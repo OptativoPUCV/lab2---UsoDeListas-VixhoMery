@@ -10,3 +10,19 @@ Thu 21 Mar 2024 08:45:31 PM UTC:
  tests:  1|4
 total_score: 10/70
 93198c3
+Thu 21 Mar 2024 08:50:13 PM UTC: 
+ exercises.c | 10 +++++++++-
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaLista’:
+exercises.c:63:20: error: implicit declaration of function ‘firts’; did you mean ‘first’? [-Werror=implicit-function-declaration]
+   63 |   void *elemento = firts(L);
+      |                    ^~~~~
+      |                    first
+exercises.c:63:20: error: initialization of ‘void *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+exercises.c:64:7: error: variable ‘suma’ set but not used [-Werror=unused-but-set-variable]
+   64 |   int suma = 0;
+      |       ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+2b8e691
