@@ -37,3 +37,9 @@ exercises.c:64:7: error: variable ‘suma’ set but not used [-Werror=unused-bu
 cc1: all warnings being treated as errors
 Compilation failed
 3ffbb25
+Thu 21 Mar 2024 08:50:41 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  1|4
+total_score: 10/70
+1bd5f52
